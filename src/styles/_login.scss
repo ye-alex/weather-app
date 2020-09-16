@@ -1,0 +1,49 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    .creds-error {
+        color: $brand-error;
+        padding-left: 15px;
+    }
+    .form-fields {
+        display: flex;
+        border: none;
+        width: 300px;
+        input {
+            padding: 0 10px;
+            height: 50px;
+            width: 100%;
+            border-radius: 5px;
+            border: $input-border;
+            &:focus {
+                outline: none;
+            }
+        }
+        label {
+            padding: 0 10px 5px;
+        }
+        span {
+            padding-top: 5px;
+            font-size: 1rem;
+        }
+        &.error {
+            input {
+                border-color: $brand-error;
+            }
+            label,
+            span {
+                color: $brand-error;
+            }
+        }
+    }
+    .form-buttons {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 2rem;
+        button {
+            padding: 10px 30px;
+        }
+    }
+}

@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Mocked credentials
+
+# email: test@test.com
+# password Test1234 
 
 ## Available Scripts
 
